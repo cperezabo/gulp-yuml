@@ -1,13 +1,15 @@
-#Gulp plugin for yUML
+# Gulp plugin for yUML
 
 Please, visit the official project at [yuml.me](https://yuml.me)
 
-##Install
+## Install
+
 ```
 npm install gulp-yuml --save-dev 
 ```
 
-##Usage
+## Usage
+
 ```javascript
 const yuml = require('gulp-yuml');
 
@@ -18,7 +20,8 @@ gulp.task("render-models", function () {
 });
 ```
 
-##Config defaults
+## Config defaults
+
 ```javascript
 {
   format: "pdf", // png, pdf, jpeg, json, svg
