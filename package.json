@@ -1,0 +1,30 @@
+{
+  "name": "gulp-yuml",
+  "version": "0.0.1",
+  "description": "Gulp plugin for yUML",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cperezabo/gulp-yuml.git"
+  },
+  "keywords": [
+    "gulp",
+    "yuml",
+    "uml"
+  ],
+  "author": "Cristián Pérez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cperezabo/gulp-yuml/issues"
+  },
+  "homepage": "https://github.com/cperezabo/gulp-yuml#readme",
+  "dependencies": {
+    "gulp-util": "^3.0.8",
+    "stream-to-string": "^1.1.0",
+    "through2": "^2.0.3",
+    "unirest": "^0.5.1"
+  }
+}
